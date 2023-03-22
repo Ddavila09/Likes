@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<script src="script.js"></script>
+
+<body>
+
+    <div class="top_bar">
+        <p>Network</p>
+    </div>
+    <div class="feed">
+        <P>Your Feed</P>
+    </div>
+    <div class="main">
+        <div class="col1">
+            <div class="notif1">
+                <img src="Icons/Profile.jpg" id="profilePic"> 
+                <p id="blueunder"> Add an avatar </p>
+                <p> James Doe </p>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="notif2">
+                <div class="NLB">
+                    <h1> Neil M </h1>
+                    <p> <span id="like1">9 </span> like(s)</p>
+                    <button class="btn1" onclick="increase('#like1')"> like </button>
+                </div>
+                <div class="def">
+                    <p>I just set up this new discord bot, let me know what you all think. <span id="blueunder"> link</span></p>
+                </div>
+            </div>
+            <div class="notif3">
+                <div class="NLB">
+                    <h1> Nichole K </h1>
+                    <p> <span id="like2">12 </span> like(s)</p>
+                    <button class="btn1" onclick="increase('#like2')"> like </button>
+                </div>
+                <div class="def">
+                    <p>Just finished my <span id="blueunder">next comic</span>, check it out.</p>
+                </div>
+            </div>
+            <div class="notif4">
+                <div class="NLB">
+                    <h1> Jim R </h1>
+                    <p> <span id="like3"> 9 </span> like(s)</p>
+                    <button class="btn1" onclick="increase('#like3')"> like </button>
+                </div>
+                <div class="def">
+                    <p>I can't stop listening to the<span id="blueunder"> new album.</span></p>
+                    <p>Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top_bar{
+    background-color: black;
+    font-size: 50px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 100px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.feed{
+    background-color: white;
+    font-size: 40px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+
+.btnTop{
+    background-color: #2b78e4;
+    color: white;
+    width: 75px;
+    box-shadow: 2px 2px black;
+    padding: 2px 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    
+}
+
+#profilePic{
+        height: 75px;
+        top: 50px;
+        border-radius: 50%;
+        margin: 10PX ;
+}
+
+.notif1{
+    border: solid 3px black;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    /* height: 200px; */
+    width: auto;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.notif1 > *{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+.notif2{
+    border: solid 3px black;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    /* height: 200px; */
+    width: 300px;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.btn1{
+    background-color: #ffd966;
+    color: black;
+    width: 40px;
+    box-shadow: 2px 2px black;
+    padding: 2px 0;
+    border-color: black;
+}
+
+.NLB{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.def{
+    text-align: left;
+    margin: 10px;
+}
+
+.btn2{
+    background-color: #ffd966;
+    color: black;
+    width: 75px;
+    box-shadow: 2px 2px black;
+    padding: 2px 0;
+}
+
+.italics{
+    font-style: italic;
+}
+
+#blueunder{
+    color: blue;
+    text-decoration: underline;
+}
+
+.notif3{
+    border: solid 3px black;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    /* height: 200px; */
+    width: 300px;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.btn3{
+    background-color: #93c47d;
+    color: black;
+    width: 170px;
+    box-shadow: 2px 2px black;
+    padding: 2px 0;
+    margin: 10px 5px;
+}
+
+.notif4{
+    border: solid 3px black;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    /* height: 200px; */
+    width: 300px;
+    gap: 30px;
+    margin-bottom: 15px;
+}
